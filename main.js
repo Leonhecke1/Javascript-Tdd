@@ -20,11 +20,11 @@ function calculation() {
   rl.question("Welche Rechenart möchtest du nutzen?: ", (calculatorOption) => {
     switch (calculatorOption) {
         case "1":
-            rl.question("Gib ersten Wert ein: ", (addInput1) => {
-                if (!isNaN(addInput1)) {
-                    rl.question("Gib zweiten Wert ein: ", (addInput2) => {
-                        if (!isNaN(addInput2)) {
-                            console.log("Ergebnis: " + additionCalculator(Number(addInput1), Number(addInput2)));
+            rl.question("Gib ersten Wert ein: ", (input1) => {
+                if (!isNaN(input1)) {
+                    rl.question("Gib zweiten Wert ein: ", (input2) => {
+                        if (!isNaN(input2)) {
+                            console.log("Ergebnis: " + additionCalculator(Number(input1), Number(input2)));
                         } else {
                             console.log("Ungültige Eingabe. Der zweite Wert ist keine Nummer.");
                         }
@@ -38,11 +38,11 @@ function calculation() {
             break;
 
       case "addition":
-        rl.question("Gib ersten Wert ein: ", (addInput1) => {
-            if (!isNaN(addInput1)) {
-                rl.question("Gib zweiten Wert ein: ", (addInput2) => {
-                    if (!isNaN(addInput2)) {
-                        console.log("Ergebnis: " + additionCalculator(Number(addInput1), Number(addInput2)));
+        rl.question("Gib ersten Wert ein: ", (input1) => {
+            if (!isNaN(input1)) {
+                rl.question("Gib zweiten Wert ein: ", (input2) => {
+                    if (!isNaN(input2)) {
+                        console.log("Ergebnis: " + additionCalculator(Number(input1), Number(input2)));
                     } else {
                         console.log("Ungültige Eingabe. Der zweite Wert ist keine Nummer.");
                     }
@@ -55,11 +55,11 @@ function calculation() {
         });
         break;
       case "2":
-        rl.question("Gib ersten Wert ein: ", (addInput1) => {
-            if (!isNaN(addInput1)) {
-                rl.question("Gib zweiten Wert ein: ", (addInput2) => {
-                    if (!isNaN(addInput2)) {
-                        console.log("Ergebnis: " + subCalculator(Number(addInput1), Number(addInput2)));
+        rl.question("Gib ersten Wert ein: ", (input1) => {
+            if (!isNaN(input1)) {
+                rl.question("Gib zweiten Wert ein: ", (input2) => {
+                    if (!isNaN(input2)) {
+                        console.log("Ergebnis: " + subCalculator(Number(input1), Number(input2)));
                     } else {
                         console.log("Ungültige Eingabe. Der zweite Wert ist keine Nummer.");
                     }
@@ -73,11 +73,11 @@ function calculation() {
         break;
 
       case "subtraktion":
-        rl.question("Gib ersten Wert ein: ", (addInput1) => {
-            if (!isNaN(addInput1)) {
-                rl.question("Gib zweiten Wert ein: ", (addInput2) => {
-                    if (!isNaN(addInput2)) {
-                        console.log("Ergebnis: " + subCalculator(Number(addInput1), Number(addInput2)));
+        rl.question("Gib ersten Wert ein: ", (input1) => {
+            if (!isNaN(input1)) {
+                rl.question("Gib zweiten Wert ein: ", (input2) => {
+                    if (!isNaN(input2)) {
+                        console.log("Ergebnis: " + subCalculator(Number(input1), Number(input2)));
                     } else {
                         console.log("Ungültige Eingabe. Der zweite Wert ist keine Nummer.");
                     }
@@ -91,11 +91,11 @@ function calculation() {
         break;
 
       case "3":
-        rl.question("Gib ersten Wert ein: ", (addInput1) => {
-            if (!isNaN(addInput1)) {
-                rl.question("Gib zweiten Wert ein: ", (addInput2) => {
-                    if (!isNaN(addInput2)) {
-                        console.log("Ergebnis: " + divCalculator(Number(addInput1), Number(addInput2)));
+        rl.question("Gib ersten Wert ein: ", (input1) => {
+            if (!isNaN(input1)) {
+                rl.question("Gib zweiten Wert ein: ", (input2) => {
+                    if (!isNaN(input2)) {
+                        console.log("Ergebnis: " + divCalculator(Number(input1), Number(input2)));
                     } else {
                         console.log("Ungültige Eingabe. Der zweite Wert ist keine Nummer.");
                     }
@@ -108,11 +108,11 @@ function calculation() {
         });
         break;
       case "divison":
-        rl.question("Gib ersten Wert ein: ", (addInput1) => {
-            if (!isNaN(addInput1)) {
-                rl.question("Gib zweiten Wert ein: ", (addInput2) => {
-                    if (!isNaN(addInput2)) {
-                        console.log("Ergebnis: " + divCalculator(Number(addInput1), Number(addInput2)));
+        rl.question("Gib ersten Wert ein: ", (input1) => {
+            if (!isNaN(input1)) {
+                rl.question("Gib zweiten Wert ein: ", (input2) => {
+                    if (!isNaN(input2)) {
+                        console.log("Ergebnis: " + divCalculator(Number(input1), Number(input2)));
                     } else {
                         console.log("Ungültige Eingabe. Der zweite Wert ist keine Nummer.");
                     }
