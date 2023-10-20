@@ -38,7 +38,7 @@ To run the calculator application, you'll need Node.js installed on your compute
 2. Navigate to the project folder:
 
    ```shell
-   Javascript-Tdd
+   cd Javascript-Tdd
 
 3. Install dependencies:
 
