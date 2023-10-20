@@ -70,5 +70,7 @@ Thanks to Rainer Winkler for providing assistance
 ### Author
 
 Leon Hecke
+
 Email: email@leon-luca.de
+
 GitHub: github.com/leonhecke1
