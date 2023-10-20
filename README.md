@@ -49,3 +49,26 @@ To run the calculator application, you'll need Node.js installed on your compute
 To start the calculator, run the following command from the project directory:
 
     node main.js
+    
+### Example Usage
+
+1. To perform addition, enter 1 or addition when prompted for the operation, and then
+   provide the two numbers you want to add.
+
+2. To perform subtraction, enter 2 or subtraction, and so on.
+
+3. To exit the calculator, enter 4.
+
+### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### Acknowledgements
+
+Thanks to Rainer Winkler for providing assistance
+
+### Author
+
+Leon Hecke
+Email: email@leon-luca.de
+GitHub: github.com/leonhecke1
