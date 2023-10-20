@@ -48,5 +48,4 @@ To run the calculator application, you'll need Node.js installed on your compute
 ### Usage
 To start the calculator, run the following command from the project directory:
 
-    ```shell
     node main.js
