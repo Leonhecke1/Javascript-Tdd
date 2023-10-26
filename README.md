@@ -33,7 +33,7 @@ To run the calculator application, you'll need Node.js installed on your compute
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone https://github.com/yourusername/Javascript-Tdd.git
+   git clone https://github.com/Leonhecke1/Javascript-Tdd.git
 
 2. Navigate to the project folder:
 
